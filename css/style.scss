@@ -1,0 +1,160 @@
+html {
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box
+}
+
+body {
+  font-family: "游ゴシック", "Yu Gothic", YuGothic, sans-serif;
+  font-weight: 500;
+  font-size: 1.6rem;
+  color: #2b492b;
+  line-height: 2;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+.wrapper {
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* header */
+.header_nav {
+  display: none;
+  position: fixed;
+  background-color: #FAF8E8;
+  height: 100px;
+  width: 100%;
+  line-height: 100px;
+}
+
+.header_nav_container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_nav_left {
+  display: flex;
+  align-items: center;
+  .logo-green {
+    width: 70px;
+    height: 70px;
+  }
+  .icon-fb {
+    width: 24px;
+    height: 24px;
+    margin-left: 16px;
+  }
+  .icon-insta {
+    width: 22px;
+    height: 22px;
+    margin-left: 8px;
+  }
+}
+
+.header_nav_right {
+  display: flex;
+  align-items: center;
+}
+
+.nav_btn_amazon {
+  img{
+    margin-bottom: calc(50px - 23px );
+    width: 220px;
+    height: 46px;
+  }
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/main01.jpg" );
+  background-size: cover;
+  .wrapper {
+    position: relative;
+  }
+}
+
+.header_main-ttl {
+  width: 550px;
+  position: absolute;
+  bottom: 3%;
+  left: 7.5%;
+}
+
+.header_main-txt01 {
+  width: 210px;
+  position: absolute;
+  right: 9%;
+  top: 45%;
+}
+
+.header_main-txt02 {
+  width: 210px;
+  position: absolute;
+  right: 9%;
+  top: 25%;
+}
+
+.header_contents {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_contents_icon {
+  display: flex;
+}
+
+.header_logo {
+  position: relative;
+  width: 130px;
+  height: 130px;
+  margin-top: 30px;
+  margin-left: 30px;
+  .logo_waku {
+    width: 130px;
+    height: 130px;
+    // position: relative;
+  }
+  .logo_main {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.sns_icon {
+  margin-top: 32px;
+  margin-left: 20px;
+  .icon-fb_white {
+    width: 24px;
+    height: 24px;
+  }
+  .icon-insta_white {
+    width: 22px;
+    height: 22px;
+    margin-left: 8px;
+  }
+}
+
+.header_contents_amazon {
+  img {
+    width: 242px;
+    height: 50px;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+}
+
+
