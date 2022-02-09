@@ -19,10 +19,12 @@ img {
   vertical-align: bottom;
 }
 
-.wrapper {
+.container {
+  width: 100%;
   max-width: 1200px;
   height: 100%;
   margin: 0 auto;
+  // background: pink;
 }
 
 /* header */
@@ -79,9 +81,66 @@ img {
   height: 100vh;
   background-image: url("../img/main01.jpg" );
   background-size: cover;
-  .wrapper {
-    position: relative;
+  position: relative;
+}
+
+.header_contents_icon {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+.header_logo {
+  position: relative;
+  width: 130px;
+  height: 130px;  
+  .logo_waku {
+    width: 130px;
+    height: 130px;
+    // position: relative;
   }
+  .logo_main {
+    width: 130px;
+    height: 130px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+.sns_icon {
+  position: absolute;
+  top: 32px;
+  left: 180px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 56px;
+  .icon-fb_white {
+    width: 24px;
+    height: 24px;
+  }
+  .icon-insta_white {
+    width: 22px;
+    height: 22px;
+    // margin-left: 8px;
+  }
+}
+
+.header_contents_amazon {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  img {
+    width: 242px;
+    height: 50px;
+  }
+}
+
+.header_contents_text {
+  width: 100%;
+  height: 100vh;
+  position: relative;
 }
 
 .header_main-ttl {
@@ -114,47 +173,176 @@ img {
   display: flex;
 }
 
-.header_logo {
+
+/* information section */
+.information {
+  background-color: #f9f3da;
+}
+
+.information_contents {
+  padding-top: 50px;
+  padding-bottom: 100px;
+  // text-align: center;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.information_contents_img {
+  width: fit-content;
+  height: 413px;
   position: relative;
-  width: 130px;
-  height: 130px;
-  margin-top: 30px;
-  margin-left: 30px;
-  .logo_waku {
-    width: 130px;
-    height: 130px;
-    // position: relative;
-  }
-  .logo_main {
-    width: 130px;
-    height: 130px;
+  margin: 0 auto;
+
+  .img_text-info1 {
     position: absolute;
-    top: 0;
+    width: 165px;
+    height: 100px;
+    top: 180px;
     left: 0;
   }
-}
-
-.sns_icon {
-  margin-top: 32px;
-  margin-left: 20px;
-  .icon-fb_white {
-    width: 24px;
-    height: 24px;
-  }
-  .icon-insta_white {
-    width: 22px;
-    height: 22px;
-    margin-left: 8px;
+  .img_text-info2 {
+    position: absolute;
+    width: 180px;
+    height: 68px;
+    top: 65px;
+    right: 10px;
   }
 }
 
-.header_contents_amazon {
-  img {
-    width: 242px;
-    height: 50px;
-    margin-top: 30px;
-    margin-right: 30px;
+.information_contents_message {
+  font-size: 3.3rem;
+  text-align: center;
+  span {
+    background: linear-gradient(transparent 60%, #2ad03d 60%);
   }
 }
 
+.information_contents_txt1,
+.information_contents_txt2 {
+  margin-top: 35px;
+  font-size: 1.8rem;
+}
 
+/* management section */
+.management {
+  background-image: url(../img/bg-line.png);
+  background-color: #FAF8E8;
+  
+  .container {
+    background-color: #FAF8E8;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    position: relative;
+  }
+}
+
+.management_logo_wrap {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  margin-left: auto;
+  top: -90px;
+  right: 90px;
+  .management_logo {
+    position: relative;
+    width: 180px;
+    height: 180px;
+    .img_circle-waku,
+    .img_circle-main {
+      position: absolute;
+      top: 0;
+      right: 0;
+    }
+  }
+}
+
+.management_title {
+  font-family: 'Akzidenz Grotesk Black', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 7rem;
+  font-weight: 750;
+  text-transform: uppercase;
+  color: #2a8c3d;
+  line-height: 1.1;
+  margin-left: 80px;
+}
+
+.management_contents_img{
+  position: relative;
+  .img_management {
+    width: 100%;
+  }
+  .management_contents_message {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.8rem;
+  }
+}
+
+.management_contents {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.management_contents_txt2 {
+  margin-top: 35px;
+}
+
+/* item section */
+.item {
+  background-color: #d6e6d9;
+}
+
+.item_contents {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 80px  ;
+  .img_item {
+    width: 450px;
+  }
+}
+
+.item_contents_intro {
+  margin-left: 40px;
+  .item_contents_message {
+    font-size: 2rem;
+    line-height: 1.6;
+  }
+  .item_contents_title {
+    font-size: 3.5rem;
+    margin-top: 15px;
+    text-transform: uppercase;
+    font-family: 'Akzidenz Grotesk Black', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 800;
+    line-height: 1.8;
+  }
+  .item_contents_quantity {
+    font-size: 1.5rem;
+    vertical-align: text-bottom;
+    line-height: 1;
+  }
+  .item_contents_price {
+    .price {
+      font-size: 4.5rem;
+      font-family: 'Akzidenz Grotesk Black', 'Helvetica Neue', Helvetica, sans-serif;
+      font-weight: 800;
+    }
+    .tax {
+      font-size: 1.5rem;
+    }
+  }
+  .img_btn-amazon {
+    width: 360px;
+    height: 64px;
+    display: block;
+    text-align: left;
+    margin-left: -2.5rem;
+    margin-top: 5px;  
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
