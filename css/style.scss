@@ -23,7 +23,7 @@ img {
   width: 100%;
   max-width: 1200px;
   height: 100%;
-  margin: 0 auto;
+  margin: 0 auto; 
 }
 
 ol {
@@ -475,13 +475,13 @@ a {
   position: relative;
   .health_heading {
     position: absolute;
-    top: -13%;
-    left: 32%;
+    top: -75px;
+    left: 325px;
   }
   .img_what03 {
     position: absolute;
     width: 266px;
-    bottom: -31%;
+    bottom: -160px;
     right: 0;
   }
 }
@@ -505,18 +505,19 @@ a {
   position: relative;
   .beauty_heading {
     position: absolute;
-    top: -6%;
-    left: 32%;
+    top: -75px;
+    left: 325px;
     z-index: 15;
   }
   .img_what05 {
     position: absolute;
     width: 239px;
-    bottom: -40%;
+    bottom: -180px;
     left: 0;
     z-index: 15;
   }
   .about_logo_wrap {
+    position: absolute;
     bottom: -20%;
     right: 5%;
     z-index: 15;
@@ -540,8 +541,8 @@ a {
   position: relative;
   .odor_heading {
     position: absolute;
-    left: 39%;
-    top: -21%;
+    left: 400px;
+    top: -75px;
   } 
 }
 

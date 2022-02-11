@@ -466,13 +466,13 @@ a:visited {
 }
 .feature_health_wrap .health_heading {
   position: absolute;
-  top: -13%;
-  left: 32%;
+  top: -75px;
+  left: 325px;
 }
 .feature_health_wrap .img_what03 {
   position: absolute;
   width: 266px;
-  bottom: -31%;
+  bottom: -160px;
   right: 0;
 }
 
@@ -496,18 +496,19 @@ a:visited {
 }
 .feature_beauty_wrap .beauty_heading {
   position: absolute;
-  top: -6%;
-  left: 32%;
+  top: -75px;
+  left: 325px;
   z-index: 15;
 }
 .feature_beauty_wrap .img_what05 {
   position: absolute;
   width: 239px;
-  bottom: -40%;
+  bottom: -180px;
   left: 0;
   z-index: 15;
 }
 .feature_beauty_wrap .about_logo_wrap {
+  position: absolute;
   bottom: -20%;
   right: 5%;
   z-index: 15;
@@ -531,8 +532,8 @@ a:visited {
 }
 .feature_odor_wrap .odor_heading {
   position: absolute;
-  left: 39%;
-  top: -21%;
+  left: 400px;
+  top: -75px;
 }
 
 /* recipe section */
