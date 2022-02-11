@@ -102,9 +102,11 @@ a {
 .header {
   width: 100vw;
   height: 100vh;
-  background-image: url("../img/main01.jpg" );
-  background-size: cover;
-  position: relative;
+  background-position:center center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .header_contents_icon {
