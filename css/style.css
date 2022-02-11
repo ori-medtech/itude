@@ -538,7 +538,7 @@ a:visited {
 /* recipe section */
 .recipe {
   background-color: #d6e5d9;
-  padding-bottom: 110px;
+  padding-bottom: 200px;
 }
 .recipe .container {
   max-width: 1200px;
@@ -678,7 +678,6 @@ a:visited {
 /* point section */
 .point {
   background-color: #FAF8E8;
-  padding-top: 100px;
   padding-bottom: 80px;
 }
 .point .section_title {
