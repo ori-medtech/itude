@@ -58,6 +58,12 @@ a {
   height: 100px;
   width: 100%;
   line-height: 100px;
+  z-index: 100;
+  font-weight: bold;
+}
+
+.display {
+  display: block;
 }
 
 .header_nav_container {
@@ -70,6 +76,7 @@ a {
 .header_nav_left {
   display: flex;
   align-items: center;
+  margin-left: 20px;
   .logo-green {
     width: 70px;
     height: 70px;
@@ -89,6 +96,7 @@ a {
 .header_nav_right {
   display: flex;
   align-items: center;
+  margin-right: 20px;
 }
 
 .nav_btn_amazon {
@@ -102,7 +110,7 @@ a {
 .header {
   width: 100vw;
   height: 100vh;
-  background-position:center center;
+  background-position: center;
 	background-size: cover;
 	display: flex;
 	align-items: center;
@@ -208,27 +216,42 @@ a {
   padding-bottom: 100px;
   max-width: 680px;
   margin: 0 auto;
+  font-weight: bold;
 }
 
 .information_contents_img {
-  width: fit-content;
+  width: 100%;
   height: 413px;
   position: relative;
   margin: 0 auto;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
 
   .img_text-info1 {
     position: absolute;
     width: 165px;
     height: 100px;
-    top: 180px;
-    left: 0;
+    top: 45%;
+    left: 3%;
   }
+
+  .img_text-info1-sp {
+    display: none;
+  }
+
   .img_text-info2 {
     position: absolute;
     width: 180px;
     height: 68px;
-    top: 65px;
-    right: 10px;
+    top: 6%;
+    right: 8%;
+  }
+
+  .img_text-info2-sp {
+    display: none;
   }
 }
 
@@ -237,6 +260,9 @@ a {
   text-align: center;
   span {
     background: linear-gradient(transparent 60%, #2ad03d 60%);
+  }
+  .br_sp {
+    display: none;
   }
 }
 
@@ -317,7 +343,7 @@ a {
   display: flex;
   justify-content: center;
   padding-top: 80px;
-  padding-bottom: 80px  ;
+  padding-bottom: 80px;
   .img_item {
     width: 450px;
   }
@@ -423,6 +449,10 @@ a {
   }
 }
 
+.about_what01-sp_wrap {
+  display: none;
+}
+
 .about_contents_heading {
   width: fit-content;
   margin: 0 auto;
@@ -437,6 +467,10 @@ a {
     text-transform: uppercase;
     letter-spacing: 0.08rem;
   }
+}
+
+.about_contents_heading-sp {
+  display: none;
 }
 
 .about_contents_feature {
@@ -454,7 +488,7 @@ a {
 }
 
 .feature_heading {
-  font-size: 70px;
+  font-size: 7rem;
   color: #2a8c3d;
   font-family: 'Akzidenz Grotesk Black', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 800;
@@ -465,6 +499,9 @@ a {
   justify-content: center;
   .img_what02 {
     width: 415px; 
+  }
+  .img_what02-sp {
+    display: none; 
   }
 }
 
@@ -497,6 +534,9 @@ a {
     width: 320px;
     z-index: 10;
   }
+  .img_what03-sp {
+    display: none;
+  }
   .feature_beauty_detail {
     width: 375px;
     margin: 8rem 4rem 0 8.5rem;
@@ -519,6 +559,8 @@ a {
     z-index: 15;
   }
   .about_logo_wrap {
+    width: 180px;
+    height: 180px;
     position: absolute;
     bottom: -20%;
     right: 5%;
@@ -532,6 +574,9 @@ a {
   margin-top: 90px;
   .img_what06 {
     width: 490px;
+  }
+  .img_what04-sp {
+    display: none;
   }
   .feature_odor_detail {
     width: 310px;
@@ -552,9 +597,6 @@ a {
 .recipe {
   background-color: #d6e5d9;
   padding-bottom: 200px;
-  .container {
-    max-width: 1200px;
-  }
 }
 
 .recipe_intro {
@@ -563,6 +605,9 @@ a {
   position: relative;
   .img_recipe {
     width: 1200px;
+  }
+  .img_recipe-sp {
+    display: none;
   }
 }
 
@@ -574,7 +619,10 @@ a {
   width: 200px;
   position: absolute;
   bottom: -11%;
-  left: 300px;
+  left: 25%;
+}
+.img_txt_recipe-sp {
+  display: none;
 }
 
 .recipe_intro_contents {
@@ -584,11 +632,11 @@ a {
   right: 100px;
   .recipe_intro_message {
     font-size: 1.87rem;
-    margin-top: 50px;
+    margin-top: 50px; 
   }
   .recipe_intro_txt {
     margin-top: 37px;
-    font-size: 15px;
+    font-size: 1.5rem;
   }
 }
 
@@ -645,6 +693,7 @@ a {
   display: flex;
   justify-content: right;
   position: relative;
+  max-width: 100% ;
   .img_recipe01-1 {
     position: absolute;
     width: 500px;
@@ -668,6 +717,9 @@ a {
     left: 600px;
     object-fit: cover;
   } 
+  .img_recipe02-1-sp {
+    display: none;
+  }
   .recipe_txt {
     height: 800px;
   }
@@ -676,7 +728,7 @@ a {
 .recipe_hamburger {
   margin-top: 90px;
   display: flex;
-  justify-content: right;
+    justify-content: right;
   position: relative;
   .img_recipe03-1 {
     position: absolute;
@@ -698,11 +750,14 @@ a {
     left: 80px;
   }
   .logo_wrap {
+    height: 180px;
+    width: 180px;
     position: absolute;
     bottom: -60px;
     right: 80px;
   }
 }
+
 
 .kodawari_detail {
   .container {
@@ -714,6 +769,9 @@ a {
   width: 790px;
   margin-top: 100px;
 }
+.pict-kodawari-sp {
+  display: none;  
+}
 
 .point_message {
   font-size: 3rem;
@@ -721,6 +779,9 @@ a {
   span {
     font-family: 'Akzidenz Grotesk Black', 'Helvetica Neue', Helvetica, sans-serif;
     padding-right: 30px;
+  }
+  br {
+    display: none;
   }
 }
 
@@ -733,7 +794,7 @@ a {
 }
 
 .appeal_img_wrap {
-  height: 540px; //スライダー実装後消す
+  height: 540px;
   margin: 0 auto;
   text-align: center;
   position: relative;
@@ -741,6 +802,7 @@ a {
     width: 320px;
   }
   .appeal_title1 {
+    width: 100%;
     position: absolute;
     top: -25px;
     left: 50%;
@@ -748,11 +810,15 @@ a {
     color: #ed5645;
   }
   .appeal_title2 {
+    width: 100%;
     position: absolute;
     top: 430px;
     left: 50%;
     transform: translateX( -50%);
     color: #ed5645;
+  }
+  br{
+    display: none;
   }
 
 }
@@ -761,6 +827,7 @@ a {
   max-width: 680px;
   margin: 0 auto;
   font-size: 1.8rem;
+  font-weight: bold;
   .appeal_txt2 {
     margin-top: 35px;
   }
@@ -781,6 +848,10 @@ a {
   .img_about {
     width: 396px;
   }
+}
+
+.itude_title-sp {
+  display: none;
 }
 
 .itude_contents_detail {
@@ -871,3 +942,4 @@ footer {
   font-size: 1.1rem;
 }
 
+@import "_mobilestyle.scss";  

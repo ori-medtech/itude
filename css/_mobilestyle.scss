@@ -1,0 +1,995 @@
+@media screen and (max-width: 1199px) {
+  .container {
+    max-width: 900px;
+  }
+  .header_main-title {
+    width: 500px;
+    left: 3%;
+  }
+
+  
+  .management {
+    .container {
+      width: 100%;
+      max-width: none;
+    }
+  }
+
+  .management_contents {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  
+  .recipe_intro {
+    width: 100%;
+    .img_recipe {
+      width: 100%;
+    }
+  }
+  
+  .recipe_intro_wrap {
+    .container {
+      width: 100%;
+    }
+  }
+
+  .img_txt_recipe {
+    bottom: -70px;
+  }
+
+  .recipe_intro_contents {
+    position: absolute;
+    max-width: 400px;
+    top: 10%;
+    right: 5% ;
+  }
+
+  .recipe_txt_wrap {
+    width: 500px;
+  } 
+
+  .recipe_txt {
+    // max-width: 360px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .recipe_title {
+    font-size: 2rem;
+    span {
+      font-size: 1.6rem;
+    }
+  }
+
+  .recipe_material {
+    margin-top: 20px;
+    td {
+      width: 170px;
+      padding-right: 10px;
+    }
+  }
+
+  .recipe_soup {
+    position: relative;
+      .img_recipe01-1 {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      top: 150px;
+      right: 460px;
+      object-fit: cover;
+    } 
+  }
+
+  .recipe_tortilla {
+    .img_recipe02-1 {
+      position: absolute;
+      width: 400px;
+      top: 190px;
+      left: 460px;
+      object-fit: cover;
+    } 
+    .recipe_txt {
+      height: 900px;
+    }
+  }
+
+  .recipe_hamburger {
+    .img_recipe03-1 {
+      position: absolute;
+      width: 400px;
+      height: 400px;
+      top: 150px;
+      right: 460px;
+      object-fit: cover;
+    } 
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .section_title {
+    font-size: 6rem;
+  }
+
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .header_main-title {
+    width: 400px;
+  }
+
+  .header_main-txt01,
+  .header_main-txt02 {
+    width: 180px;
+  }
+
+  .information_contents_message {
+    font-size: 3rem;
+  }
+
+  .logo_wrap {
+    width: 150px;
+    height: 150px;
+  }
+  .logo_green {
+    width: 150px;
+    height: 150px;
+  }
+
+  .item_contents {
+    .img_item {
+      width: 350px;
+    }
+  }
+
+  .item_contents_intro{
+    .item_contents_title {
+      font-size: 2.8rem;
+    }
+    .item_contents_price {
+      .price {
+        font-size: 3.5rem;
+      }
+    }
+    .img_btn-amazon {
+      width: 300px;
+      height: 62px;
+      margin-left: 0;
+    }
+  }
+
+  .about_contents_intro {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+
+  .about_contents_detail {
+    width: 360px;
+    .about_contents_message {
+      font-size: 2.4rem;
+    }
+  }
+
+  .feature_heading {
+    font-size: 6rem;
+  }
+
+  .feature_health {
+    margin-left: 3rem;
+    .img_what02 {
+      width: 417px; 
+    }
+  }
+  
+  .feature_health_wrap {
+    .img_what03 {
+      position: absolute;
+      width: 180px;
+      bottom: -150px;
+      right: 30px;
+    }
+  }
+
+  .feature_beauty {
+    margin-left: 20px;
+    .img_what04 {
+      width: 250px;
+    }
+    .feature_beauty_detail {
+      width: 416px;
+      margin: 5rem 2rem 0 3.5rem;
+    }
+  }
+
+  .feature_beauty_wrap {
+    .img_what05 {
+      width: 160px;
+      bottom: -200px;
+      left: 30px;
+      z-index: 15;
+    }
+    .about_logo_wrap {
+      width: 150px;
+      height: 150px;
+      bottom: -110px;
+      right: 40px;
+      z-index: 15;
+    }
+
+    .logo_green {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .feature_odor {
+    .img_what06 {
+      width: 400px;
+    }
+    .feature_odor_detail {
+      width: 310px;
+      margin: 3rem 3rem 0 3.5rem;
+    }
+  }
+
+  .recipe_txt_wrap {
+    width: 400px;
+    background-color: #fff;
+    // padding-left: 50px;
+    // padding-right: 50px;
+  }
+
+  .recipe_txt {
+    max-width: none;
+    height: 650px;
+  }
+
+  .recipe_title {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    span {
+      font-size: 1.5rem;
+    }
+  }
+
+  .recipe_material {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 1.2rem;
+    td {
+      width: 140px;
+      padding-right: 0;
+    }
+  }
+
+  .recipe_making {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+
+  .recipe_soup {
+    .img_recipe01-1 {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      top: 175px;
+      right: 380px;
+      object-fit: cover;
+    } 
+  }
+
+  .recipe_tortilla {
+    .img_recipe02-1 {
+      position: absolute;
+      width: 300px;
+      top: 300px;
+      left: 380px;
+      object-fit: cover;
+    } 
+  }
+
+  .recipe_hamburger {
+    .img_recipe03-1 {
+      position: absolute;
+      width: 300px;
+      height: 300px;
+      top: 175px;
+      right: 380px;
+      object-fit: cover;
+    } 
+  }
+  
+
+  
+  .point {
+    .logo_wrap {
+      width: 150px;
+      height: 150px;
+    }
+    .logo_green {
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+  .pict-kodawari {
+    width: 700px;
+    margin-top: 100px;
+  }
+
+  .appeal_img_wrap{
+    .appeal_title1,
+    .appeal_title2 {
+      font-size: 70px;
+    }
+  }
+
+  .itude_contents {
+    .img_about {
+      width: 324px;
+      height: 324px;
+    }
+  }
+
+  .itude_contents_detail {
+    width: 304px;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .section_title {
+    font-size: 4.4rem;
+    text-align: center;
+    line-height: 1.3;
+  }
+
+  .header_nav_right {
+    p {
+      display: none;
+    }
+  }
+
+  .header {
+    display: block;
+  }
+
+  .header_contents_icon {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  .header_logo {
+    width: 80px;
+    height: 80px;  
+    .logo_waku {
+      width: 80px;
+      height: 80px;
+    }
+    .logo_main {
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+  }
+
+  .sns_icon {
+    position: absolute;
+    top: 110px;
+    left: 29px;
+  }
+  
+  .header_contents_amazon {
+    img {
+      width: 190px;
+      height: 39px;
+    }
+  }
+
+  .header_main-title {
+    width: 300px;
+  }
+
+  .header_main-txt01 {
+    display: none;
+  }
+  
+  .header_main-txt02 {
+    width: 160px;
+  }
+
+  .information_contents {
+    padding-top: 30px;
+    padding-bottom: 70px;
+  }
+
+  .information_contents_img {
+    .img_text-info1 {
+      display: none;
+    }
+  
+    .img_text-info1-sp {
+      display: block;
+      position: absolute;
+      width: 90px;
+      height: 63px;
+      top: 55%;
+      left: 18%;
+    }
+  
+    .img_text-info2 {
+      display: none;
+    }
+    
+    .img_text-info2-sp {
+      display: block;
+      position: absolute;
+      width: 137px;
+      height: 61px;
+      top: 12%;
+      right: 22%;
+    }
+  } 
+
+
+
+  .br_sp {
+    display: block;
+  }
+
+  .information_contents_message {
+    font-size: 2.2rem;
+  }
+
+  .logo_wrap {
+    width: 100px;
+    height: 100px;
+    top: -32px;
+    right: 15px;
+    .logo_green {
+      position: relative;
+      width: 100px;
+      height: 100px;
+      .img_circle-waku,
+      .img_circle-main {
+        position: absolute;
+
+      }
+    }
+  }
+
+  .management_contents_img{
+    .management_contents_message {
+      position: absolute;
+      bottom: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      font-size: 2.4rem;
+    }
+  }
+
+  .item_contents {
+    flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    .img_item {
+      width: 100%;
+    }
+  }
+
+  .item_contents_intro {
+    margin: 0 auto;
+    .item_contents_message {
+      margin-top: 1rem;
+      font-size: 1.8rem;
+    }
+    .item_contents_title {
+      font-size: 3.0rem;
+      margin-top: 15px;
+    }
+
+    .item_contents_price {
+      .price {
+        font-size: 4.5rem;
+      }
+      .tax {
+        font-size: 1.5rem;
+      }
+    }
+
+    .img_btn-amazon {
+      width: 300px;
+      height: 62px;
+      display: block;
+      text-align: center;
+      margin-left: 0;
+      margin-top: 5px;  
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+
+  .about {
+    background: #FAF8E8;
+  }
+  
+  .about_contents {
+    padding-top: 65px;
+    padding-bottom: 40px;
+    width: 100%;
+    max-width: none;
+  }
+
+  .about_contents_intro {
+    flex-direction: column;
+  }
+
+  .about_contents_detail {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .about_what01-sp_wrap {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    .img_what01-sp {
+      width: 100%;
+    }
+    .img_what01_txt1-sp {
+      width: 190px; 
+      position: absolute;
+      top: 25%;
+      left: 12%;
+    }
+    .img_what01_txt2-sp {
+      width: 240px;
+      position: absolute;
+      top: 30%;
+      right: 8%;
+    }
+  }
+
+  .about_what01_wrap {
+    display: none;  
+  }
+
+  .about_contents_heading {
+    display: none;
+  }
+  
+  .about_contents_heading-sp {
+    display: block;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.7rem 2rem;
+    background: #2b492b;
+    color: #fff;
+    font-size: 2.8rem;
+    line-height: 1;
+    span {
+      font-family: 'Akzidenz Grotesk', 'Helvetica Neue', Helvetica, sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.08rem;
+    }
+  }
+
+  .h-sp1 {
+    margin-top: 80px;
+  }
+  
+  .h-sp2 {
+    margin-top: 10px;
+  }
+
+  .about_contents_txt {
+    font-size: 1.5rem;
+    text-align: left;
+    br {
+      display: none;
+    }
+    span {
+      display: block;
+      margin-right: auto;
+    }
+  }
+
+  .feature_heading {
+    font-size: 4.4rem;
+  }
+
+  .feature_health {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    padding-right: 15%;
+    .img_what02 {
+      display: none; 
+    }
+    .img_what02-sp {
+      display: block; 
+      max-width: 100%;
+    }
+  }
+
+  .feature_health_detail {
+    width: 100%;
+    margin: 2.3rem 0 0 1.5rem;
+  }
+
+  .feature_health_wrap {
+    position: relative;
+    .health_heading {
+      position: absolute;
+      top: -6%;
+      left: 60%;
+    }
+    .img_what03 {
+      display: none;
+    }
+  }
+
+  .feature_beauty {
+    display: block;
+    margin-top: 60px;
+    padding-left: 15%;
+    .img_what04 {
+      display: none;
+    }
+    .img_what03-sp {
+      display: block;
+      max-width: 100%;
+    }
+    .feature_beauty_detail {
+      width: 375px;
+      margin: 2.3rem 1.5rem 0 0;
+    }
+  }
+
+  .feature_beauty_wrap {
+    position: relative;
+    .beauty_heading {
+      position: absolute;
+      top: -6%;
+      left: 10%;
+      z-index: 15;
+    }
+    .img_what05 {
+      display: none;
+    }
+    .about_logo_wrap {
+      display: none;
+    }
+  }
+
+  .feature_odor {
+    display: block;
+    margin-top: 90px;
+    padding-right: 15%;
+    .img_what06 {
+      display: none;
+    }
+    .img_what04-sp {
+      display: block;
+      max-width: 100%;
+    }
+    .feature_odor_detail {
+      width: 310px;
+      margin: 2.3rem 0 0 1.5rem;
+    }
+  }
+
+  .feature_odor_wrap {
+    position: relative;
+    .odor_heading {
+      position: absolute;
+      left: 65%;
+      top: -5%;
+    } 
+  }
+  
+  .recipe {
+    padding-bottom: 90px;
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .recipe_intro {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .img_recipe {
+      display: none;
+    }
+    .img_recipe-sp {
+      display: block;
+      width: 100%;
+    }
+  }
+
+  .recipe_intro_wrap {
+    background-image: none;
+  }
+
+  .img_txt_recipe {
+    display: none;
+  }
+
+  .img_txt_recipe-sp {
+    display: block;
+    width: 220px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+  }
+
+  .recipe_intro_contents {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 98%;
+    left: 0;
+    margin: 0 auto;
+    width: 100%;
+    max-width: none;
+    padding-right: 1rem;
+    padding-left: 1rem;
+
+    .recipe_intro_message { 
+      font-size: 2.2rem;
+      margin-top: 20px;
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .recipe_intro_txt {
+      margin-top: 25px;
+      font-size: 15px;
+    }
+  }
+
+  .recipe_detail_wrap {
+    padding-top: 400px;
+  }
+
+  .recipe_container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .recipe_section_title {
+    align-self: center;
+    font-size: 4.4rem;
+    padding-left: 0;    
+  }
+
+  .recipe_detail {
+    width: 100%;
+  }
+  .recipe_txt_wrap {
+    width: 100%;
+    padding: 29.5rem 1.5rem 3.5rem;
+  }
+
+  .recipe_txt {
+    max-width: none;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .recipe_material {
+    margin-top: 25px;
+    td {
+      width: 50%;
+      padding-right: 20px;
+    }
+  }
+
+  .recipe_soup {
+    flex-direction: column;
+    margin-bottom: 20px;
+
+    .img_recipe01-1 {
+      margin-top: 20px;
+      position: initial;
+      width: 85%;
+      height: 100%;
+      object-fit: cover;
+      z-index: 10;
+    } 
+
+    .recipe_txt_wrap {
+      margin-top: -275px;
+    }
+  }
+
+  .recipe_tortilla {
+    flex-direction: column;
+    margin-bottom: 20px;
+    .img_recipe02-1 {
+      display: none;
+    } 
+
+    .img_recipe02-1-sp {
+      display: block;
+      margin-top: 20px;
+      position: initial;
+      width: 85%;
+      height: 85%;
+      object-fit: cover;
+      z-index: 10;
+    } 
+    .recipe_txt_wrap {
+      margin-top: -275px;
+    }
+    .recipe_txt {
+      height: auto;
+    }
+  }
+
+  .recipe_hamburger {
+    display: none;
+    //   flex-direction: column;
+    //   margin-bottom: 20px;
+    // .img_recipe03-1 {
+    //   margin-top: 20px;
+    //   position: initial;
+    //   width: 85%;
+    //   height: 100%;
+    //   object-fit: cover;
+    //   z-index: 10;
+    // } 
+    // .recipe_txt_wrap {
+    //   margin-top: -275px;
+    // }
+  }
+
+  .point {
+    background-color: #FAF8E8;
+    padding-bottom: 60px;
+    .recipe_intro {
+      position: relative;
+      .section_title {
+        position: absolute;
+        top: -20px;
+        left: 50%;
+        transform: translateX( -50%);
+      }
+      .logo_wrap {
+        height: 180px;
+        width: 180px;
+        position: absolute;
+        top: 92%;
+        left: 80%;
+      }
+    }
+  }
+
+  .pict-kodawari {
+    display: none;
+  }
+  .pict-kodawari-sp {
+    display: block; 
+    width: 100%; 
+    margin-top: 60px;
+  }
+
+  .point_message {
+    font-size: 2.8rem;
+    font-weight: bold;
+    span {
+      padding-right: 0;
+    }
+    br {
+      display: block;
+    }
+  }
+
+  .appeal {
+    padding-top: 110px;
+    padding-bottom: 60px;
+  }
+
+  .appeal_img_wrap {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+    // position: relative;
+    .img_life01 {
+      width: 320px;
+      order: 3;
+      margin-top: 36px;
+    }
+    .appeal_title1 {
+      width: 100%;
+      position: initial;
+      transform: none;
+      order: 1;
+    }
+    .appeal_title2 {
+      width: 100%;
+      position: initial;
+      transform: none;
+      order: 2;
+    }
+    br {
+      display: block;
+    }
+  }
+  
+  .appeal_contents {
+    .appeal_txt1 {
+      margin-top: 35px;
+    }
+  }
+
+  .itude {
+    padding-top: 60px;
+    padding-bottom: 70px;
+    .container {
+      padding-left: 0;
+      padding-right: 0;
+      margin-left: 0;
+      margin-right: 0;
+    }
+  }
+
+  .itude_contents {
+    flex-direction: column; 
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+    .img_about {
+      width: 100vw;
+      height: 100%;
+      // order: 2;
+    }
+  }
+
+  .itude_title-sp {
+    display: block;
+    font-size: 3rem;
+    line-height: 1.1;
+    font-family: 'Akzidenz Grotesk Black', 'Helvetica Neue', Helvetica, sans-serif;
+  }
+  
+  .itude_title {
+    display: none;
+  }
+
+  .itude_contents_detail {
+    width: 100%;
+    margin-top: 0;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    .itude_contents_txt {
+      margin-top: 0;
+      font-size: 1.6rem;
+    }
+  }
+}
