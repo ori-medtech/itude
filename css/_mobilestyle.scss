@@ -803,12 +803,12 @@
   }
 
   .recipe_intro_contents {
+    position: initial;
     display: flex;
     flex-direction: column;
-    position: absolute;
-    top: 98%;
-    left: 0;
-    margin: 0 auto;
+    margin-top: -2rem;
+    margin-left: auto;
+    margin-right: auto;
     width: 100%;
     max-width: none;
     padding-right: 1rem;
@@ -827,7 +827,7 @@
   }
 
   .recipe_detail_wrap {
-    padding-top: 400px;
+    padding-top: 40px;
   }
 
   .recipe_container {
