@@ -22,7 +22,6 @@ img {
 .container {
   width: 100%;
   max-width: 1200px;
-  height: 100%;
   margin: 0 auto; 
 }
 
@@ -47,6 +46,10 @@ a {
   &:visited {
     color: inherit;
   }
+}
+
+.br_sp {
+  display: none;
 }
 
 
@@ -101,7 +104,7 @@ a {
 
 .nav_btn_amazon {
   img{
-    margin-bottom: calc(50px - 23px );
+    margin-bottom: calc(50px - 23px);
     width: 220px;
     height: 46px;
   }
@@ -128,12 +131,15 @@ a {
   width: 130px;
   height: 130px;  
   .logo_waku {
-    width: 130px;
-    height: 130px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
   }
   .logo_main {
-    width: 130px;
-    height: 130px;
+    width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -146,8 +152,9 @@ a {
   left: 180px;
   display: flex;
   align-items: center;
-  gap: 10px;
+  justify-content: space-between;
   width: 56px;
+
   .icon-fb_white {
     width: 24px;
     height: 24px;
@@ -162,9 +169,16 @@ a {
   position: absolute;
   top: 30px;
   right: 30px;
+  width: 242px;
+  height: 50px;
+  .header_btn_amazon {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
   img {
-    width: 242px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -195,14 +209,14 @@ a {
   top: 25%;
 }
 
-.header_contents {
-  display: flex;
-  justify-content: space-between;
-}
+// .header_contents {
+//   display: flex;
+//   justify-content: space-between;
+// }
 
-.header_contents_icon {
-  display: flex;
-}
+// .header_contents_icon {
+//   display: flex;
+// }
 
 
 
@@ -221,7 +235,8 @@ a {
 
 .information_contents_img {
   width: 100%;
-  height: 413px;
+  height: 100%;
+  object-fit: cover;
   position: relative;
   margin: 0 auto;
 
@@ -293,8 +308,8 @@ a {
   height: 180px;
   .logo_green {
     position: relative;
-    width: 180px;
-    height: 180px;
+    width: 100%;
+    height: 100%;
     .img_circle-waku,
     .img_circle-main {
       position: absolute;
@@ -312,15 +327,13 @@ a {
 
 
 .management_contents_img{
-  position: relative;
+  width: 10 0%;
+  text-align: center;
   .img_management {
     width: 100%;
   }
   .management_contents_message {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: -8rem;
     font-size: 2.8rem;
   }
 }
@@ -330,6 +343,7 @@ a {
   margin: 0 auto;
 }
 
+.management_contents_txt1,
 .management_contents_txt2 {
   margin-top: 35px;
 }
@@ -488,6 +502,7 @@ a {
 }
 
 .feature_heading {
+  border: 1px red solid;
   font-size: 7rem;
   color: #2a8c3d;
   font-family: 'Akzidenz Grotesk Black', 'Helvetica Neue', Helvetica, sans-serif;
@@ -512,6 +527,7 @@ a {
 
 .feature_health_wrap {
   position: relative;
+  width: 100%;
   .health_heading {
     position: absolute;
     top: -75px;
@@ -604,7 +620,7 @@ a {
   margin: 0 auto;
   position: relative;
   .img_recipe {
-    width: 1200px;
+     width: 1200px;
   }
   .img_recipe-sp {
     display: none;

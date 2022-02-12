@@ -351,6 +351,10 @@
     line-height: 1.3;
   }
 
+  .br_sp {
+    display: block;
+  }
+
   .header_nav_right {
     p {
       display: none;
@@ -370,17 +374,6 @@
   .header_logo {
     width: 80px;
     height: 80px;  
-    .logo_waku {
-      width: 80px;
-      height: 80px;
-    }
-    .logo_main {
-      width: 80px;
-      height: 80px;
-      position: absolute;
-      top: 0;
-      left: 0;
-    }
   }
 
   .sns_icon {
@@ -390,10 +383,10 @@
   }
   
   .header_contents_amazon {
-    img {
-      width: 190px;
-      height: 39px;
-    }
+    top: 20px;
+    right: 15px;
+    width: 190px;
+    height: 39px;
   }
 
   .header_main-title {
@@ -411,6 +404,7 @@
   .information_contents {
     padding-top: 30px;
     padding-bottom: 70px;
+    max-width: none;
   }
 
   .information_contents_img {
@@ -421,31 +415,53 @@
     .img_text-info1-sp {
       display: block;
       position: absolute;
-      width: 90px;
-      height: 63px;
+      width: 120px;
+      height: 84px;
+      object-fit: cover;
       top: 55%;
-      left: 18%;
+      left: 16%;
+      @media screen and (max-width: 670px) {
+        width: 120px;
+        height: 84px;
+        top: 50%;
+        left: 12%;
+      }
+      @media screen and (max-width: 575px) {
+        left: 8%;
+        width: 100px;
+        height: 70px;
+      }
     }
   
     .img_text-info2 {
       display: none;
+
     }
     
     .img_text-info2-sp {
       display: block;
       position: absolute;
-      width: 137px;
-      height: 61px;
+      width: 180px;
+      height: 68px;
       top: 12%;
       right: 22%;
-    }
-  } 
-
-
-
-  .br_sp {
-    display: block;
+      @media screen and (max-width: 670px) {
+        width: 170px;
+        height: 76.3px;
+        top: 5%;
+        right: 8%;
+      }
+      @media screen and (max-width: 575px) {
+        top: 4%;  
+        right: 7%;
+        width: 150px;
+        height: 67px;
+      }
+    } 
   }
+
+
+ 
 
   .information_contents_message {
     font-size: 2.2rem;
@@ -458,8 +474,8 @@
     right: 15px;
     .logo_green {
       position: relative;
-      width: 100px;
-      height: 100px;
+      width: 100%;
+      height: 100%;
       .img_circle-waku,
       .img_circle-main {
         position: absolute;
@@ -470,10 +486,7 @@
 
   .management_contents_img{
     .management_contents_message {
-      position: absolute;
-      bottom: 30px;
-      left: 50%;
-      transform: translateX(-50%);
+      margin-top: 0;
       font-size: 2.4rem;
     }
   }
@@ -555,15 +568,51 @@
       width: 190px; 
       position: absolute;
       top: 25%;
-      left: 12%;
+      left: 18%;
+      @media screen and (max-width: 670px) {
+        left: 17%;
+      }
+      @media screen and (max-width: 600px) {
+        width: 160px;
+        top: 32%;
+        left: 16%;
+      }
+      @media screen and (max-width: 450px) {
+        width: 110px;
+        top: 33%;
+        left: 20%;
+      }
+      @media screen and (max-width: 400px) {
+        left: 16%;
+      }
     }
     .img_what01_txt2-sp {
       width: 240px;
       position: absolute;
       top: 30%;
-      right: 8%;
+      right: 15%;
+      @media screen and (max-width: 670px) {
+        width: 200px;
+        right: 17%;
+      }
+      @media screen and (max-width: 600px) {
+        width: 180px;
+        top: 35%;
+      }
+      @media screen and (max-width: 530px) {
+        width: 130px;
+        right: 16%;
+      }
+      @media screen and (max-width: 450px) {
+        top: 35%;
+        right: 14%;
+      }
+      @media screen and (max-width: 400px) {
+        right: 12%;
+      }
     }
   }
+
 
   .about_what01_wrap {
     display: none;  
@@ -611,7 +660,7 @@
   }
 
   .feature_heading {
-    font-size: 4.4rem;
+    font-size: 4.4rem; 
   }
 
   .feature_health {
@@ -635,10 +684,12 @@
 
   .feature_health_wrap {
     position: relative;
+    width: 100%;
+    background: pink;
     .health_heading {
       position: absolute;
-      top: -6%;
-      left: 60%;
+      top: -40px;
+      right: 20px;
     }
     .img_what03 {
       display: none;
@@ -646,6 +697,7 @@
   }
 
   .feature_beauty {
+    width: 100%;
     display: block;
     margin-top: 60px;
     padding-left: 15%;
@@ -657,8 +709,9 @@
       max-width: 100%;
     }
     .feature_beauty_detail {
-      width: 375px;
+      width: 100%;
       margin: 2.3rem 1.5rem 0 0;
+      background: pink;
     }
   }
 
@@ -666,8 +719,8 @@
     position: relative;
     .beauty_heading {
       position: absolute;
-      top: -6%;
-      left: 10%;
+      top: -26px;
+      left: 20px;
       z-index: 15;
     }
     .img_what05 {
@@ -699,8 +752,8 @@
     position: relative;
     .odor_heading {
       position: absolute;
-      left: 65%;
-      top: -5%;
+      left: 60%;
+      top: -25px;
     } 
   }
   
@@ -878,11 +931,11 @@
         transform: translateX( -50%);
       }
       .logo_wrap {
-        height: 180px;
-        width: 180px;
+        height: 120px;
+        width: 120px;
         position: absolute;
         top: 92%;
-        left: 80%;
+        right:15px;
       }
     }
   }
