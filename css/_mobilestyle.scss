@@ -798,8 +798,18 @@
     display: block;
     width: 220px;
     position: absolute;
-    top: 55%;
-    left: 45%;
+    top: 60%;
+    left: 40%;
+    @media screen and (max-width: 670px) {
+      top: 55%;
+    }
+    @media screen and (max-width: 540px) {
+      top: 50%;
+    }
+    @media screen and (max-width: 430px) {
+      top: 45%;
+      left: 36%;
+    }
   }
 
   .recipe_intro_contents {

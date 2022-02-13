@@ -1732,8 +1732,24 @@ footer {
     display: block;
     width: 220px;
     position: absolute;
+    top: 60%;
+    left: 40%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 670px) {
+  .img_txt_recipe-sp {
     top: 55%;
-    left: 45%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 540px) {
+  .img_txt_recipe-sp {
+    top: 50%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 430px) {
+  .img_txt_recipe-sp {
+    top: 45%;
+    left: 36%;
   }
 }
 @media screen and (max-width: 767px) {
